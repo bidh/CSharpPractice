@@ -1,0 +1,17 @@
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\ExercisesTests.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\ExercisesTests.pdb
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Exercises.exe
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Exercises.pdb
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Exercises.exe.config
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\obj\Debug\ExercisesTests.csprojAssemblyReference.cache
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\obj\Debug\ExercisesTests.csproj.CoreCompileInputs.cache
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\obj\Debug\ExercisesTests.csproj.CopyComplete
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\obj\Debug\ExercisesTests.dll
+C:\practice\CSharpProgramming\Exercise1\Exercises\ExercisesTests\obj\Debug\ExercisesTests.pdb
