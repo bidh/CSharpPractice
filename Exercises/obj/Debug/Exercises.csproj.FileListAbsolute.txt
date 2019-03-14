@@ -5,3 +5,10 @@ C:\practice\CSharpProgramming\Exercise1\Exercises\Exercises\obj\Debug\Exercises.
 C:\practice\CSharpProgramming\Exercise1\Exercises\Exercises\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
 C:\practice\CSharpProgramming\Exercise1\Exercises\Exercises\obj\Debug\Exercises.exe
 C:\practice\CSharpProgramming\Exercise1\Exercises\Exercises\obj\Debug\Exercises.pdb
+D:\Biraj\CSharpPractice\Exercises\bin\Debug\Exercises.exe.config
+D:\Biraj\CSharpPractice\Exercises\bin\Debug\Exercises.exe
+D:\Biraj\CSharpPractice\Exercises\bin\Debug\Exercises.pdb
+D:\Biraj\CSharpPractice\Exercises\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
+D:\Biraj\CSharpPractice\Exercises\obj\Debug\Exercises.exe
+D:\Biraj\CSharpPractice\Exercises\obj\Debug\Exercises.pdb
+D:\Biraj\CSharpPractice\Exercises\obj\Debug\Exercises.csprojAssemblyReference.cache

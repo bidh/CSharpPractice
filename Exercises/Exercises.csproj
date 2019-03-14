@@ -43,13 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter1.cs" />
-    <Compile Include="Chapter6.cs" />
-    <Compile Include="Chapter9.cs" />
+    <Compile Include="Arrays.cs" />
+    <Compile Include="IntroductionToProgramming.cs" />
+    <Compile Include="Recursion.cs" />
+    <Compile Include="LinearDataStructures.cs" />
+    <Compile Include="DictionariesHasTablesSets.cs" />
+    <Compile Include="DataStructureAndAlgorithmComplexity.cs" />
+    <Compile Include="OOP.cs" />
+    <Compile Include="LambdaAndLINQ.cs" />
+    <Compile Include="Loops.cs" />
+    <Compile Include="Methods.cs" />
+    <Compile Include="ConditionalStatements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\Courses.txt" />
+    <Content Include="Files\Phonebook.txt" />
+    <Content Include="Files\Queries.txt" />
+    <Content Include="Files\Words.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

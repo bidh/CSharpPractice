@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if RemoveToRun
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Exercises
 {
-    class Chapter19
+    class DataStructureAndAlgorithmComplexity
     {
         public static void GeneratingSubsetsV1()
         {
@@ -54,7 +55,7 @@ namespace Exercises
                 {
                     start = subset[subset.Count - 1];
                 }
-                for (int i = start+1; i < words.Length; i++)
+                for (int i = start + 1; i < words.Length; i++)
                 {
                     List<int> newSubset = new List<int>();
                     newSubset.AddRange(subset);
@@ -74,12 +75,12 @@ namespace Exercises
             Console.WriteLine("]");
         }
 
-        class Student:IComparable<Student>
+        class Student : IComparable<Student>
         {
             private readonly string _firstName;
             private readonly string _lastName;
 
-            public Student(string firstName,string lastName)
+            public Student(string firstName, string lastName)
             {
                 _firstName = firstName;
                 _lastName = lastName;
@@ -97,7 +98,7 @@ namespace Exercises
             }
             public override string ToString()
             {
-                return _firstName+" "+_lastName;
+                return _firstName + " " + _lastName;
             }
         }
         static void CoursesStudents()
@@ -105,7 +106,7 @@ namespace Exercises
             Dictionary<string, List<Student>> courses = new Dictionary<string, List<Student>>();
             StreamReader reader = new StreamReader("../../Files/Courses.txt");
             using (reader)
-            {                
+            {
                 while (reader.Peek() >= 0)
                 {
                     string line = reader.ReadLine();
@@ -119,12 +120,13 @@ namespace Exercises
                     string course = entry[2].Trim();
                     List<Student> students;
                     //if there does not exist the course then create new one
-                    if (! courses.TryGetValue(course,out students)){
+                    if (!courses.TryGetValue(course, out students))
+                    {
                         students = new List<Student>();
                         courses.Add(course, students);
                     }
                     Student student = new Student(firstName, lastName);
-                    students.Add(student);                   
+                    students.Add(student);
                 }
             }
             foreach (string c in courses.Keys)
@@ -159,12 +161,12 @@ namespace Exercises
                 string phone = entry[2];
 
                 SortedDictionary<string, string> value;
-                if(! phoneBook.TryGetValue(city,out value))
+                if (!phoneBook.TryGetValue(city, out value))
                 {
                     value = new SortedDictionary<string, string>();
                     phoneBook.Add(city, value);
                 }
-                value.Add(name,phone);                
+                value.Add(name, phone);
             }
             foreach (var pB in phoneBook)
             {
@@ -177,11 +179,13 @@ namespace Exercises
         }
         public static void Main(string[] args)
         {
+            Console.WriteLine(typeof(DataStructureAndAlgorithmComplexity).Name);
             //GeneratingSubsetsV1();
             //GeneratingSubsetsV2();
             //CoursesStudents();
             //PhoneBook();
             Console.ReadLine();
-        }        
+        }
     }
 }
+#endif
